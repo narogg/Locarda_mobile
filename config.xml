@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "org.coenraets.employeedirectory"
+        versionCode="10"
+        version   = "1.1.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Employees</name>
+
+    <description>
+        Employees directory application
+    </description>
+
+    <author href="https://github.com/narogg" email="gmandini@net.hr">
+        Goran M.
+    </author>    
+
+	<gap:plugin name="org.apache.cordova.contacts" />
+	<gap:plugin name="org.apache.cordova.camera" />
+	<gap:plugin name="org.apache.cordova.network-information" />
+	<icon src="icon.png" />
+	
+	<gap:platform name="android" />
+    <gap:platform name="winphone" />
+</widget>
