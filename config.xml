@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Employees</name>
+    <name>Locarda</name>
 
     <description>
-        Employees directory application
+        Locarda - kartica vjernosti
     </description>
 
     <author href="https://github.com/narogg" email="gmandini@net.hr">
